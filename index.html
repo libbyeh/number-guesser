@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Number Guesser</title>
+	<link rel="stylesheet" href="main.css" type="text/css"> 
+</head>
+<body>
+<header>
+	<h1 class="game-name">Number <span>Guesser</span></h1>
+</header>
+<div class="range">
+	<h6>Set a range then guess a number</h6>
+	<form>
+   <label>Min</label>
+   <input type="range" id="player-min" class="player-range" min="1" max="50" step="10" oninput="slider(value)"/>
+   <output id="playerRange"></output>
+	</form>
+	<form>
+   <label>Max</label>
+   <input type="range" id="player-max" class="player-range" min="51" max="100" step="10" oninput="slider(value)"/>
+   <output id="playerRange"></output>
+	</form>
+</div>
+<div class="game">
+	<form>
+		<input type="number" class="player-guess"  placeholder="Enter Your Guess"/>
+		<button class="guess-btn" disabled>Guess</button>
+		<button class="clear-btn" disabled>Clear</button>
+	</form>
+</div>
+<div class="results">
+ 	<h6 class="your-last">Your last guess was</h6>
+	<h2 class="number-guessed">?</h2>
+	<h6 class="generated-reply">That is too high</h6>
+	<form>
+		<button class="reset-btn" disabled>Reset</button>
+	</form>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

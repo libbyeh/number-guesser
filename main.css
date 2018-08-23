@@ -1,0 +1,97 @@
+* {
+	text-align: center;
+	font-family: sans-serif;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+header {
+	background: #404041
+}
+
+h1 {
+	color: #ED458B;
+}
+
+h6 {
+	font-size: 16px
+}
+
+.game-name {
+	padding: 1%;
+	font-weight: 700;
+}
+
+.game-name span {
+	color: #E6E7E8;
+}
+
+.player-guess {
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 15px;
+	width: 200px;
+	text-align: left;
+}
+ 
+.number-guessed {
+	color: #ED458B;
+	font-size: 150px;
+	font-weight: 300;
+	margin: auto;
+}
+
+.guess-btn, .clear-btn, .reset-btn {
+	background:	#D0D2D3;
+	color: #FFFFFF;
+	border-radius: 30px;
+	font-weight: 300;
+	width: 85px;
+	display: inline-block;
+	margin-bottom: auto;
+}
+
+.guess-btn, .clear-btn {
+	margin-right: 12px;
+	margin-left: 12px;
+}
+
+.reset-btn {
+	width: 200px;
+}
+
+.your-last {
+	margin-bottom: auto;
+}
+
+.generated-reply {
+	margin-top: auto;
+}
+.clear-btn:hover {
+	 background-color: #EB008B;
+}
+
+.guess-btn:hover {
+	 background-color: #EB008B;
+}
+
+.reset-btn:hover {
+	 background-color: #EB008B;
+}
+
+.guess-btn:disabled {
+    background-color: #D0D2D3;
+}
+
+.clear-btn:disabled {
+    background-color: #D0D2D3;
+}
+
+.reset-btn:disabled {
+    background-color: #D0D2D3;
+}
+
+
+
+
